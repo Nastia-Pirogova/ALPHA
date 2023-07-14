@@ -24,30 +24,33 @@
       color: $blue;
     }
 
-    &__form-input {
-      padding: 11px 50px 11px 16px;
-      color: $blue;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 17px;
-      border-radius: 10px;
-      background: $grey;
-      width: 282px;
-      border: none;
+    &__form {
       position: relative;
+
+      &-input {
+        padding: 11px 50px 11px 16px;
+        color: $blue;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        border-radius: 10px;
+        background: $grey;
+        width: 282px;
+        border: none;
+        position: relative;
+
+        &-icon {
+          position: absolute;
+          right: 12px;
+          top: 10.5px;
+        }
+      }
+
+
     }
 
     &__form-input::placeholder {
       color: $blue;
-    }
-
-    &__form-input::before {
-      position: absolute;
-      content: '';
-      background-image: url(../images/icons.svg#search-icon);
-      display: block;
-      width: 18px;
-      height: 18px;
     }
 
     &__phone {
