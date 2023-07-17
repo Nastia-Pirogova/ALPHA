@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: $grey;
+  color: $white;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: $light-blue;
+  color: $yellow;
+}
+::-moz-selection {
+  background-color: $light-blue;
+  color: $yellow;
+}
+img {
+  display: block;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.list {
+  list-style: none;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+  color: $white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  padding: 0 165px;
+  margin: auto;
+  width: 1440px;
+  position: relative;
+}
